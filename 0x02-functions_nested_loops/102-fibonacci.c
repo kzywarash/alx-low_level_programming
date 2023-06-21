@@ -7,19 +7,19 @@
 int main(void)
 {
 	int count = 2;
-	int i = 1, j = 2;
-	int k;
+	long int i = 1, j = 2;
+	long int k;
 
-	printf("%d, ", i);
+	printf("%lu, ", i);
 	while (count <= 50)
 	{
 		if (count == 50)
 		{
-			printf("%d\n", j);
+			printf("%lu\n", j);
 		}
 		else
 		{
-			printf("%d, ", j);
+			printf("%lu, ", j);
 		}
 		k = j;
 		j += i;
