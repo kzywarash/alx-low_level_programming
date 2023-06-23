@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * print_triangle - Prints a triangle,with character #.
@@ -22,12 +22,12 @@ void print_triangle(int size)
 			{
 				_putchar('#');
 			}
+			_putchar('\n');
 
 			if (height == size)
 			{
 				continue;
 			}
-			_putchar('\n');
 		}
 	}
 	else
