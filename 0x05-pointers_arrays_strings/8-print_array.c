@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - function that prints n elements
@@ -17,13 +18,11 @@ void print_array(int *a, int n)
 	{
 		if (c != (n - 1))
 		{
-			_putchar(*(a + c));
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", a[c]);
 		}
 		else
 		{
-			_putchar(*(a + c));
+			printf("%d", c[c]);
 		}
 		c++;
 	}
