@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - function that prints the
@@ -26,6 +27,5 @@ void print_diagsums(int *a, int size)
 	{
 		sum2 = sum2 + a[n];
 	}
-
 	printf("%d, %d\n", sum1, sum2);
 }
